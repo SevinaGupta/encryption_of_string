@@ -3,7 +3,7 @@ In this, we have simply encypted a string
 
 write a program to enter a word you want to encrpted. all alphabetic words are equal to reverse of alphabetic words Like as:
 
-a = z br
+a = z  
 b = y  
 c = x  
 d = w  
@@ -31,5 +31,5 @@ y = b
 z = a  
 
 # output: 
-### enter a word: sevina
-### the encrypted string: hvermz
+### enter a string that you want encrypted: sevina
+### the encrypted string of sevina: hvermz
