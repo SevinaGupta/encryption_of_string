@@ -11,8 +11,13 @@ int main()
 	n=strlen(name);
 	//while(name<=n)
 	for(i=0;i<n;i++)
-	{
-	  s=name[i];
+	{ if(name[i] == 32)
+	  {
+		 a[i]= 32;
+	  }
+	  else
+	  {
+	    s=name[i];
 	  	if(s<=109)
 	  	{
 	  	   d=109-s;
@@ -25,6 +30,7 @@ int main()
 		    a[i]=s-(2*d+1);
 		    //printf("the ascii value of %s = %s",s,a[i]);
 		}
+      }
 
 	  	
 	}
